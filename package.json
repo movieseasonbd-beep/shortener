@@ -1,0 +1,16 @@
+{
+  "name": "link-shortener",
+  "version": "1.0.0",
+  "description": "A simple URL shortener with Vercel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/kv": "^1.0.1",
+    "nanoid": "^3.3.6"
+  }
+}
