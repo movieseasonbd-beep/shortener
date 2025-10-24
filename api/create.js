@@ -1,6 +1,6 @@
 import { kv } from '@vercel/kv';
 // nanoid ইম্পোর্ট করার পদ্ধতি পরিবর্তন করা হয়েছে
-import { nanoid } from 'nanoid';
+import { nanoid } from 'nanoid/non-secure';
 
 export const config = {
   runtime: 'edge', // Vercel-কে বলে দেওয়া হচ্ছে এটি Edge Function হিসেবে চলবে
